@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:////data/stock_forecast.db
+    volumes:
+      - db_data:/data
+
+volumes:
+  db_data:
