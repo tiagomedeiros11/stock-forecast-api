@@ -2,7 +2,7 @@
 
 A REST API for **inventory demand forecasting** built with FastAPI. Given a product's historical sales data, it predicts future demand using Linear Regression and alerts when stock is likely to fall below the reorder point.
 
-![CI](https://github.com/YOUR_USERNAME/stock-forecast-api/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/tiagomedeiros11/stock-forecast-api/actions/workflows/ci.yml/badge.svg)
 
 ---
 
@@ -53,7 +53,7 @@ The forecasted demand is subtracted from `current_stock`. If the result is below
 ### With Docker (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/stock-forecast-api.git
+git clone https://github.com/tiagomedeiros11/stock-forecast-api.git
 cd stock-forecast-api
 docker compose up
 ```
